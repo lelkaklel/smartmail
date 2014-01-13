@@ -553,7 +553,7 @@ class SmartMail(object):
 
 def test_send():
 	obj = SmartMail()
-	obj.connect("smtp.gmail.com", "587", "botkakbot@gmail.com", "*********", "smtp", 1)
+	obj.connect("smtp.gmail.com", "587", "superman@gmail.com", "secret", "smtp", 1)
 	obj.sender = 'botkakbot@gmail.com'
 	obj.recipient = 'botkakbot@yandex.ru'
 	obj.subject = 'smartmail smtp test #4'
